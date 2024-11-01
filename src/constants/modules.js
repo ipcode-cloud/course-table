@@ -13,5 +13,5 @@ export const modules = [
   { names: ["Math", "Blockchain", "Flutter"], day: "Tuesday" },
   { names: ["Nosql", "pw"], day: "Wednesday" },
   { names: ["Blockchain", "reactJs", "Python"], day: "Thursday" },
-  { names: ["Ml", "Math", "Flutter"], day: "friday" },
+  { names: ["Machine-learning", "Math", "Flutter"], day: "friday" },
 ];
