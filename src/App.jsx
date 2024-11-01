@@ -16,7 +16,7 @@ const App = () => {
 
   return (
     <div className="flex items-center justify-center min-h-screen bg-gradient-to-r from-indigo-500 via-purple-600 to-pink-600 p-8">
-      <Displayer search={search} handleSearchChange={handleSearchChange} filteredModules={filteredModules}/>
+      <Displayer search={search} handleSearcbhChange={handleSearchChange} filteredModules={filteredModules}/>
     </div>
   );
 };

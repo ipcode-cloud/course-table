@@ -9,9 +9,9 @@
 // }
 
 export const modules = [
-  { names: ["Nosql", "Franch", "Machine-Learning"], day: "monday" },
-  { names: ["Math", "Blockchain", "Flutter"], day: "tuesday" },
-  { names: ["Python", "Ent-ship"], day: "wednesday" },
-  { names: ["Ent-ship", "French", "Machine-Learning"], day: "thursday" },
-  { names: ["Flutter", "Math", "Python"], day: "friday" },
+  { names: ["Nosql", "E-ship", "Machine-Learning"], day: "Monday" },
+  { names: ["Math", "Blockchain", "Flutter"], day: "Tuesday" },
+  { names: ["Nosql", "pw"], day: "Wednesday" },
+  { names: ["Blockchain", "reactJs", "Python"], day: "Thursday" },
+  { names: ["Ml", "Math", "Flutter"], day: "friday" },
 ];
