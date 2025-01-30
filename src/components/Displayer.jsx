@@ -18,7 +18,7 @@ const Displayer = (props) => {
         <div className="flex items-center mb-6 w-full justify-center">
           <input
             type="text"
-            placeholder="🔍 Search by day ..."
+            placeholder="🔍 Type a day ..."
             value={search}
             onChange={handleSearchChange}
             className="flex-1 mr-2 p-4 rounded-lg bg-gray-800 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-purple-600 transition text-center"
