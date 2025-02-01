@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from "framer-motion";
 const Displayer = (props) => {
   const { search, filteredModules, handleSearchChange, } = props;
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center w-full">
       <motion.div
         initial={{ opacity: 0, scale: 0.95 }}
         animate={{ opacity: 1, scale: 1 }}
