@@ -41,7 +41,7 @@ const Displayer = (props) => {
               {filteredModules.map((module) => (
                 <motion.div
                   key={module.day}
-                  className="bg-gray-800 bg-opacity-60 rounded-2xl p-6 shadow-lg flex flex-col items-center"
+                  className="bg-black bg-opacity-60 rounded-2xl p-6 shadow-lg flex flex-col items-center"
                   whileHover={{
                     scale: 1.05,
                     boxShadow: "0px 10px 30px rgba(0, 0, 0, 0.3)",
@@ -80,8 +80,8 @@ const Displayer = (props) => {
             </motion.p>
           )}
         </AnimatePresence>
-        <footer className="mt-8 text-center text-gray-300">
-          Powered by React & Framer Motion 🚀 & made with 🤖 By irankunda
+        <footer className="w-full flex justify-center">
+          <p>Powered by React & Framer Motion 🚀 & made with 🤖 By irankunda</p>
         </footer>
       </motion.div>
     </>
