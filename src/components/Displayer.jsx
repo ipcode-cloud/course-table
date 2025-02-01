@@ -1,16 +1,15 @@
 import React from "react";
-import { modules } from "../constants/modules";
 import { motion, AnimatePresence } from "framer-motion";
 
 const Displayer = (props) => {
-  const { search, filteredModules, handleSearchChange, } = props;
+  const { search, filteredModules, handleSearchChange } = props;
   return (
-    <div className="flex flex-col items-center w-full">
+    <>
       <motion.div
         initial={{ opacity: 0, scale: 0.95 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
-        className="w-full max-w-3xl bg-white bg-opacity-20 backdrop-filter backdrop-blur-lg rounded-2xl shadow-2xl p-8 flex flex-col items-center"
+        className="w-full max-w-3xl bg-white bg-opacity-20 rounded-2xl shadow-2xl p-8 flex flex-col items-center"
       >
         <h1 className="text-4xl font-extrabold text-white mb-6 text-center flex items-center justify-center">
           📚 Module Search 📚
@@ -82,11 +81,10 @@ const Displayer = (props) => {
           )}
         </AnimatePresence>
         <footer className="mt-8 text-center text-gray-300">
-          Powered by React & Framer Motion 🚀 <br />
-          made with 😏 iRANK
+          Powered by React & Framer Motion 🚀 & made with 🤖 By irankunda
         </footer>
       </motion.div>
-    </div>
+    </>
   );
 };
 
